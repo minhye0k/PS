@@ -1,7 +1,6 @@
 
 .idea
 
-backjoon/IO/*
+backjoon/*/*
 
-
-!backjoon/IO/*.cpp
+!backjoon/*/*.cpp
