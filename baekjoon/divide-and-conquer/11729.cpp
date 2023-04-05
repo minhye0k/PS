@@ -6,9 +6,9 @@
 using namespace std;
 
 void hanoi(int n, int start, int pass, int end){
-    if(n == 1){
+    if(n == 1) {
         cout << start << " " << end << '\n';
-    }else{
+    } else {
         hanoi(n-1, start, end, pass);
         cout << start << " " << end << '\n';
         hanoi(n-1, pass, start, end);
