@@ -1,0 +1,2 @@
+    sum += arr[end++];
+                    length++;
