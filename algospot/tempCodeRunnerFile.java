@@ -1,1 +1,5 @@
-ret +((cnt[i] * (cnt[i]-1)) / 2)
+
+        }
+
+        System.out.println(ret);
+    }
